@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task List</title>
+    <link rel="stylesheet" href="tasks.css">
+</head>
+<body>
+    <div class="nav">
+        <h4>My Task List</h4>
+        <ul><li class="navli">
+            <a href="login.html" class="nava">Logout</a>
+        </li>
+        </ul>
+    </div>
+    <div class="showr">
+        <div class="tasknames"><h4>Your Task Name</h4></div>
+        <div class="taskcontents"><h4>Task Content</h4></div>
+        <div class="addeddate"><h4>Added Date</h4></div>
+        <div class="addtask">
+            <h4 class="ma">Add a Task</h4>
+           <input type="text" class="ma" placeholder="task name" id="inp1">
+             <textarea name="" id="ta" cols="30" rows="10" class="ma" placeholder="text content"></textarea>
+             <button id="addbtn">Add</button>
+             <button id="dellbtn"><strong>Delete Task</strong> <label for=""><em>(click to tasknames to select, double click to deselect)</em></label></button>
+        </div>
+    </div>
+    <script src="tasks.js"></script>
+</body>
+</html>
